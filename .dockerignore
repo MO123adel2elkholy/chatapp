@@ -1,0 +1,15 @@
+venv
+env
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.git
+.gitignore
+*.sqlite3
+node_modules
+npm-debug.log
+media
+static
