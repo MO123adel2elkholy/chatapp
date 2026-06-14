@@ -10,17 +10,17 @@ django-debug-toolbar>=3.5,<4.0
 gunicorn>=20.0,<21.0
 psycopg2-binary>=2.9,<3.0
 django-environ>=0.9,<1.0
-djmoney>=3.0,<4.0
+# djmoney
 # django-cleanup>=6.2,<7.0
 # django-storages>=1.13,<2.0
 # boto3>=1.26,<2.0
 # djangorestframework>=3.14,<4.0
-django-anymail>=8.2,<9.0
+# django-anymail>=8.2,<9.0
 django-extensions>=3.2,<4.0
 # django-axes>=6.2,<7.0
 # waitress>=2.1,<3.0
 # If using django-carton (import becomes: from carton.cart import Cart)
-django-carton>=0.3,<0.5
+django-carton
 
 # If the package on PyPI is literally named "cart", add:
 # cart>=0.1,<1.0

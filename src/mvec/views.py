@@ -7,7 +7,7 @@ from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from django.template.loader import render_to_string
 from django.db.models import Max, Min, Sum
-from cart.cart import Cart
+from carton.cart import Cart
 # Create your views here.
 
 

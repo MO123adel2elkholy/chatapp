@@ -43,9 +43,9 @@ INSTALLED_APPS = [
     'mvec.apps.MvecConfig',
     'ckeditor',
     'ckeditor_uploader',
-    'cart',
-
+    'carton',  # changed from 'cart'
 ]
+
 CART_SESSION_ID = 'cart'
 
 MIDDLEWARE = [
@@ -71,7 +71,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'cart.context_processor.cart_total_amount',
+                'mvec.context_processors.cart',  # added
             ],
         },
     },
